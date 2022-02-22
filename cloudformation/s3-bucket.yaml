@@ -1,5 +1,6 @@
-
 Resources:
   MyS3Bucket:
     Type: AWS::S3::Bucket
-    Properties: {}
+    Properties:
+      AccessControl: PublicRead
+      BucketName: "insert-some-random-string-here-123456789"
