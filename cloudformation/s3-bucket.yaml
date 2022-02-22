@@ -3,4 +3,4 @@ Resources:
     Type: AWS::S3::Bucket
     Properties:
       AccessControl: PublicRead
-      BucketName: "insert-some-random-string-here-123456789"
+      BucketName: "cs4843-s3-cfn"
