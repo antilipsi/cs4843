@@ -15,8 +15,8 @@ def hello_firestore(event, context):
     # now print out the entire event object
     print(str(event))
 
-    topic_name = 'func-2-demo'
-    PROJECT_ID =  'gcf-course-330901'
+    topic_name = ''
+    PROJECT_ID =  ''
     message = str(event)
 
     topic_path = publisher.topic_path(PROJECT_ID, topic_name)
